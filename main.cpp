@@ -30,8 +30,11 @@ gameConfig configFromData;
 systemConfig configFromCode;
 player pl[15];
 item il[50];
-void shop_processing();
 void start();
+bool getConfig() {
+    
+    return true;
+}
 void archive();
 void addmoney(int id);
 void shop(int id);
@@ -41,24 +44,14 @@ int main() {
     return 0;
 }
 void start() {
-    cout << "Welcome to Hot City!\n";
-    cout << "Game version: 0.1.1c\nGame Dev Level: Alpha-A.\n";
-    cout << "1.Start a new game.\n";
-    cout << "2.Open a saved world.\n";
-    cout << "3.Quit.\n";
-    cout << "Please press number key to choose:\n";
-    char chs;
-    chs = getch();
-    if(chs == '1') {
-        system("cls");
-        game();
-    } else if(chs == '2') {
-        system("cls");
-        archive();
-    }
-
+    cout << "Welcome to Hot City!!!\n";
+    cout << "Getting configurations...\n";
+    getConfig();
+    cout << "Press 1 to start game.\n";
+    cout << "Press 2 to see version message.\n";
+    cout << "Press 3 to exit.\n";
 }
-void shop(int id) {
+/*void shop(int id) {
     cout << "Welcome to HOTCITY SUPER SHOP!!!\n";
     cout << "What item do you want to buy? Please choose!\n";
     for(int i = 1;i <= in;i++) {
@@ -75,7 +68,7 @@ void shop(int id) {
         cout << "Ok,you're have " << num << " " << il[itemId].name << "!";
         //pl[id].
     }
-}
+}*/
 void addmoney(int id) {
     cout << "We're add 10w money to your accout.\n";
     pl[id].moneyw += 10;
