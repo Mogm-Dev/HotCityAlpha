@@ -118,5 +118,4 @@ void game() {
         } else if(ope == '3'){
             continue;
         }
-    } 
 }
