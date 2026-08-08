@@ -1,4 +1,7 @@
 # ZH-CN
+
+## 由于我们正将该游戏迁移至Java平台，所以在一段时间内它都不会更新。
+
 欢迎来到HotCity，这是一个回合制战争游戏！
 
 本游戏的Alpha版本有Alpha-A、Alpha-B两种版本，Alpha-A版本的版本号带“alphaa”，Alpha-B版本的版本号带“alphab”。
@@ -19,6 +22,9 @@ Alpha-B的第一个正式版（ab1.0.0a-normal）预计于2026年9月发布
 下一个HotCity的开发周期（Beta）的版本文件会转移至[HotCityBeta仓库](https://github.com/Mogm-Dev/HotCityBeta)进行发布，Beta版本不会在此发布
 
 # EN-US
+
+## As we are migrating the game to the Java platform, it will not receive updates for some time.
+
 Welcome to HotCity, a turn-based war game!
 
 The Alpha version of this game has two types: Alpha-A and Alpha-B.
